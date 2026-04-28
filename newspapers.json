@@ -1,0 +1,26 @@
+[
+  {
+    "title": "The Times",
+    "image": "/images/times.jpg",
+    "price": 5.99,
+    "createdAt": { "$date": "2026-04-27T10:00:00Z" }
+  },
+  {
+    "title": "The Guardian",
+    "image": "/images/guardian.jpg",
+    "price": 4.99,
+    "createdAt": { "$date": "2026-04-27T10:00:00Z" }
+  },
+  {
+    "title": "Financial Times",
+    "image": "/images/ft.jpg",
+    "price": 7.99,
+    "createdAt": { "$date": "2026-04-27T10:00:00Z" }
+  },
+  {
+    "title": "The Telegraph",
+    "image": "/images/telegraph.jpg",
+    "price": 3.99,
+    "createdAt": { "$date": "2026-04-27T10:00:00Z" }
+  }
+]
