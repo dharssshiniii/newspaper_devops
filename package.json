@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "lint": "eslint . --ext .js",
+    "lint": "eslint . --ext .js --ignore-pattern frontend",
     "test": "jest --runInBand",
     "build": "echo \"Backend build step is not required for runtime\""
   },

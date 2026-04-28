@@ -25,16 +25,21 @@ jobs:
       - name: Install backend dependencies
         run: npm install
 
+      - name: Install frontend dependencies
+        run: |
+          cd frontend
+          npm install
+
       - name: Lint backend
         run: npm run lint
 
       - name: Run backend tests
         run: npm test
 
-      - name: Install frontend dependencies
+      - name: Lint frontend
         run: |
           cd frontend
-          npm install
+          npm run lint
 
       - name: Build frontend
         run: |
