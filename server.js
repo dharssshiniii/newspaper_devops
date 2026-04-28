@@ -1559,6 +1559,8 @@ app.post('/delete-subscription', requireAuth, requireRole('manager'), async (req
     res.redirect('/manager/dashboard');
 });
 
-const server = app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+}
 
 module.exports = app;
