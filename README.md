@@ -48,6 +48,7 @@ docker-compose up --build
 ```
 
 - Frontend: http://localhost:8080
+- Frontend: http://localhost:8080
 - Backend: http://localhost:3000
 - Backend health: http://localhost:3000/api/health
 
@@ -74,3 +75,10 @@ Set repository secrets:
 ## Notes
 
 This repo is intentionally focused on infrastructure and pipeline design. The application logic is intentionally lightweight and suitable for a DevOps showcase.
+
+## Notes
+
+This repo is intentionally focused on infrastructure and pipeline design. The application logic is intentionally lightweight and suitable for a DevOps showcase.
+=======
+# newspaper_devops
+>>>>>>> f567cc30ee00cd357c75b74e9d53a8e8839179f8
